@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chougule Dental Clinic, Ashta</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+    body { line-height: 1.6; color: #333; }
+    header { background: linear-gradient(135deg, #2ec4b6, #00b4d8); color: white; padding: 60px 20px; text-align: center; }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { font-size: 1.1rem; }
+    nav { background: #023047; padding: 10px; position: sticky; top: 0; }
+    nav ul { display: flex; justify-content: center; list-style: none; gap: 20px; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    .section-title { text-align: center; margin-bottom: 40px; }
+    .section-title h2 { font-size: 2rem; color: #023047; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { background: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
+    .card h3 { margin-bottom: 10px; color: #0077b6; }
+    .about { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+    .about img { width: 100%; border-radius: 10px; }
+    @media (max-width: 768px) {
+      .about { grid-template-columns: 1fr; }
+    }
+    .contact { background: #e0fbfc; border-radius: 12px; padding: 30px; }
+    .contact form { display: grid; gap: 15px; }
+    input, textarea, button { padding: 12px; border-radius: 6px; border: 1px solid #ccc; }
+    button { background: #0077b6; color: white; border: none; cursor: pointer; font-size: 1rem; }
+    button:hover { background: #023e8a; }
+    footer { background: #023047; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+      .float-btn{position:fixed;right:20px;z-index:999;display:flex;align-items:center;gap:10px;padding:14px 18px;border-radius:50px;color:#fff;font-weight:600;text-decoration:none;box-shadow:0 8px 20px rgba(0,0,0,0.25)}
+    .call-btn{bottom:90px;background:#16a34a}
+    .call-btn:hover{background:#15803d}
+    .wa-btn{bottom:20px;background:#25D366}
+    .wa-btn:hover{background:#1ebe5d}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Chougule Dental Clinic</h1>
+  <p>Healthy Smiles • Gentle Care • Ashta</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="about">
+  <div class="section-title">
+    <h2>About Our Clinic</h2>
+  </div>
+  <div class="about">
+    <div>
+      <p>
+        At <strong>Chougule Dental Clinic, Ashta</strong>, we are a multispecialty dental clinic known for professional, gentle ("soft hands"), quick, hygienic, and reasonably priced treatments. We focus on patient comfort and modern dental solutions.
+      </p>
+      <p style="margin-top: 15px;">
+        Our clinic is led by experienced doctors <strong>Dr. Rohit Chougule</strong> and <strong>Dr. Prangha Chougule</strong>, who are highly appreciated by patients for their expertise and care.
+      </p>
+    </div>
+    <img src="/mnt/data/WhatsApp Image 2026-02-02 at 4.52.18 PM.jpeg" alt="Dental Clinic" />
+  </div>
+</section>
+
+<section id="services">
+  <div class="section-title">
+    <h2>Our Services</h2>
+  </div>
+  <div class="services">
+    <div class="card">
+      <h3>Dental Consultation</h3>
+      <p>Comprehensive dental check-ups with personalized treatment planning.</p>
+    </div>
+    <div class="card">
+      <h3>Laser Dentistry</h3>
+      <p>Advanced laser treatments for painless and precise dental care.</p>
+    </div>
+    <div class="card">
+      <h3>Root Canal Treatment (RCT)</h3>
+      <p>Safe and effective root canal treatments to save damaged teeth.</p>
+    </div>
+    <div class="card">
+      <h3>Wisdom Tooth Extraction</h3>
+      <p>Expert and minimally invasive removal of impacted wisdom teeth.</p>
+    </div>
+  </div>
+</section>
+
+<section id="hours">
+  <div class="section-title">
+    <h2>Opening Hours</h2>
+    <p>Clinic working hours for your convenience</p>
+  </div>
+  <div class="contact">
+    <ul style="list-style:none;line-height:2;font-size:1.05rem">
+      <li><strong>Monday:</strong> 9:30 am – 2:00 pm, 4:30 pm – 9:00 pm</li>
+      <li><strong>Tuesday:</strong> 9:30 am – 2:00 pm, 4:30 pm – 9:00 pm</li>
+      <li><strong>Wednesday:</strong> 9:30 am – 2:00 pm, 4:30 pm – 9:00 pm</li>
+      <li><strong>Thursday:</strong> 9:30 am – 2:00 pm, 4:30 pm – 9:00 pm</li>
+      <li><strong>Friday:</strong> 9:30 am – 2:00 pm, 4:30 pm – 9:00 pm</li>
+      <li><strong>Saturday:</strong> 9:30 am – 2:00 pm, 4:30 pm – 9:00 pm</li>
+      <li><strong>Sunday:</strong> Closed</li>
+    </ul>
+  </div>
+</section>
+
+<section id="map">
+  <div class="section-title">
+    <h2>Our Location</h2>
+    <p>Visit Chougule Dental Clinic, Ashta</p>
+  </div>
+  <div class="contact">
+    <iframe 
+      src="https://www.google.com/maps?q=Chougule+Dental+Clinic+Ashta+Sangli+Maharashtra&output=embed"
+      width="100%" 
+      height="350" 
+      style="border:0;border-radius:12px" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-title">
+    <h2>Book an Appointment</h2>
+  </div>
+  <div class="contact">
+    <p><strong>Address:</strong> First Floor, above DCC Bank (Jilha Madhyawarti Bank), near Chandu Wadapav, Amruta Awati, Ashta, Sangli, Maharashtra 416301</p>
+    <p><strong>Phone:</strong> <a href="tel:07350075545">073500 75545</a></p>
+    <br/>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <textarea rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Chougule Dental Clinic, Ashta | All Rights Reserved</p>
+</footer>
+
+
+<!-- Floating Call & WhatsApp Buttons -->
+<a href="tel:07350075545" class="float-btn call-btn">📞 Call Now</a>
+<a href="https://wa.me/917350075545" target="_blank" class="float-btn wa-btn">💬 WhatsApp Appointment</a>
+
+</body>
+</html>
